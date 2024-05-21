@@ -1,9 +1,11 @@
-function App() {
+import Chat from "./components/chat/chat";
+import Side from "./components/side/side";
+
+export default function App() {
   return (
-    <>
-      <h1 className="text-6xl">init</h1>
-    </>
+    <section className="flex justify-center gap-32">
+      <Side />
+      <Chat />
+    </section>
   );
 }
-
-export default App;
