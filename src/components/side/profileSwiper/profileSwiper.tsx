@@ -9,10 +9,12 @@ export default function ProfileSwiper() {
   return (
     <Swiper
       effect={"cards"}
-      grabCursor={true}
       modules={[EffectCards]}
-      loop={true}
-      className="w-2/4 h-72"
+      className="w-[210px] h-[280px]"
+      /* cursor 끌기 */
+      grabCursor={true}
+      /* 클릭 가능 여부 */
+      slideToClickedSlide={true}
     >
       <SwiperSlide>
         <img
