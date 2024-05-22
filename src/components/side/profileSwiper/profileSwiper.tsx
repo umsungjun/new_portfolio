@@ -13,7 +13,7 @@ export default function ProfileSwiper() {
       className="w-[215px] h-[286px]"
       /* 반복 여부 */
       loop={true}
-      loopAdditionalSlides={1}
+      // loopAdditionalSlides={1}
       /* 커서 끌기 여부 */
       grabCursor={true}
       /* 클릭 슬라이드 이동 여부 */
