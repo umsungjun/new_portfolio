@@ -2,7 +2,7 @@ import ProfileSwiper from "./profileSwiper/profileSwiper";
 
 export default function Side() {
   return (
-    <aside className="max-w-[450px] w-[450px] h-screen flex items-center">
+    <aside className="hidden max-w-[450px] w-[450px] h-screen items-center web:flex">
       <div className="w-full flex flex-col gap-10">
         {/* 제목 및 소개 */}
         <div className="flex flex-col gap-10">
