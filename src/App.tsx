@@ -3,7 +3,7 @@ import Side from "./components/side/side";
 
 export default function App() {
   return (
-    <section className="flex justify-center gap-32">
+    <section className="flex justify-center gap-32 overflow-hidden">
       <Side />
       <Chat />
     </section>
