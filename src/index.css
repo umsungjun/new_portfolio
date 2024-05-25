@@ -139,7 +139,8 @@ table {
   font-family: "TAEBAEKmilkyway" !important;
 }
 
-@keyframes gradient-animation {
+/* live-gradient 배경화면 임시 주석처리 */
+/* @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
   }
@@ -156,3 +157,4 @@ table {
   background-size: 200% 100%;
   animation: gradient-animation 8s ease infinite;
 }
+ */
