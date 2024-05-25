@@ -138,3 +138,21 @@ table {
 * {
   font-family: "TAEBAEKmilkyway" !important;
 }
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.chatBackground {
+  background: linear-gradient(100deg, #d7e5fa, #ede9f8, #f4f6f8);
+  background-size: 200% 100%;
+  animation: gradient-animation 8s ease infinite;
+}
