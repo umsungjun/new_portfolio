@@ -1,6 +1,6 @@
 export default function Chat() {
   return (
-    <section className="max-w-[475px] w-[475px] h-dvh  bg-gradient-to-tr from-blue-200 via-blue-100 to-slate-100 border border-solid border-y-0 border-slate-200">
+    <section className="max-w-[475px] w-[475px] h-dvh border border-solid border-y-0 border-slate-200 chatBackground">
       <header className="w-full h-14 bg-white sticky shadow-sm flex items-center justify-center text-lg">
         {/* 뒤로가기 ico */}
         <svg
