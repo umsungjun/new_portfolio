@@ -1,4 +1,4 @@
-import ChatBody from "./chatBody/chatBody";
+import ChatBody from "./chatBody";
 import ChatHeader from "./chatHeader";
 
 export default function Chat() {
