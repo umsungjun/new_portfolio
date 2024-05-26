@@ -10,5 +10,6 @@ export type Chat = {
 
 export type ChatOption = {
   id: number;
+  type: string;
   text: string;
 };
