@@ -1,15 +1,18 @@
 export type Chat = {
   id: number;
-  type: "questionComment" | "userComment" | "selectQuestion" /* 채팅 타입 */;
-  phrase: string /* 문구 */;
+  type:
+    | "questionComment"
+    | "userComment"
+    | "selectQuestion"
+    | "answer" /* 채팅 타입 */;
+  phrase: string /* 내용 */;
   options?: ChatOption[] /* 버튼 선택지 */;
-  photos?: string[] /* 이미지 */;
-  videos?: string[] /* 동영상 */;
   createdAt: Date /* 생성일 */;
 };
 
 export type ChatOption = {
   id: number;
-  type: string;
-  text: string;
+  text: string /* 버튼 텍스트 */;
+  type: "answer" /* 채팅 타입 */;
+  phrase: string /* 내용 */;
 };
