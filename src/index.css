@@ -140,7 +140,7 @@ table {
 }
 
 /* live-gradient 배경화면 임시 주석처리 */
-/* @keyframes gradient-animation {
+@keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
   }
@@ -152,11 +152,10 @@ table {
   }
 }
 .chatBackground {
-  background: linear-gradient(100deg, #d7e5fa, #ede9f8, #f4f6f8);
+  background: linear-gradient(100deg, #d7e5fa, #ede9f8, #d7e5fa);
   background-size: 200% 100%;
-  animation: gradient-animation 8s ease infinite;
+  animation: gradient-animation 15s ease infinite;
 }
- */
 
 @keyframes slideDown {
   0% {
@@ -188,4 +187,10 @@ table {
 }
 .questionButtonBox button {
   @apply h-12 border border-solid border-gray-400 rounded-xl shadow-sm hover:shadow-md transition-all ease-in-out;
+}
+
+/* 답변 CSS */
+.answerWrapper {
+  @apply w-full max-w-64 web:max-w-80 bg-blue-200 ml-auto p-5 rounded-2xl rounded-br-none shadow-sm leading-6 flex flex-col items-end;
+  animation: slideDown 0.7s ease-in-out forwards;
 }
