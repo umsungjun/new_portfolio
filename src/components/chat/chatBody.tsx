@@ -1,4 +1,5 @@
 import { chatStore } from "../../store/chatStore";
+import Answer from "./chatComponent/answer";
 import QuestionComment from "./chatComponent/questionComment";
 import SelectQuestion from "./chatComponent/selectQuestion";
 
@@ -11,7 +12,7 @@ export default function ChatBody() {
         if (chatData.type === "questionComment") {
           return (
             <QuestionComment
-              key={chatData.id}
+              key={`questionComment+${chatData.id}`}
               id={chatData.id}
               phrase={chatData.phrase}
             />
@@ -24,6 +25,11 @@ export default function ChatBody() {
               phrase={chatData.phrase}
               options={chatData.options}
             />
+          );
+        }
+        if (chatData.type === "answer") {
+          return (
+            <Answer key={`answer+${chatData.id}`} phrase={chatData.phrase} />
           );
         }
       })}
