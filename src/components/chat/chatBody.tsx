@@ -1,5 +1,6 @@
 import { chatStore } from "../../store/chatStore";
 import Answer from "./chatComponent/answer";
+import ChatStart from "./chatComponent/chatStart";
 import QuestionComment from "./chatComponent/questionComment";
 import SelectQuestion from "./chatComponent/selectQuestion";
 
@@ -8,6 +9,7 @@ export default function ChatBody() {
   console.log(chatHistory);
   return (
     <div className="relative h-full px-5 pt-6 pb-20 max-h-dvh overflow-y-scroll flex flex-col gap-4">
+      <ChatStart createdAt={chatHistory[0].createdAt} />
       {chatHistory.map((chatData) => {
         if (chatData.type === "questionComment") {
           return (
