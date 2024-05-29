@@ -1,13 +1,13 @@
 type QuestionComment = {
   id: number;
-  phrase: string;
+  text: string;
 };
 
-export default function QuestionComment({ id, phrase }: QuestionComment) {
+export default function QuestionComment({ id, text }: QuestionComment) {
   return (
     <div className="questionWrapper">
       {id !== 2 && <div className="questionMark">Q</div>}
-      <p>{phrase}</p>
+      <p>{text}</p>
     </div>
   );
 }
