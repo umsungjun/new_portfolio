@@ -12,10 +12,8 @@ export default function Side() {
             {t("common.portfolioTItle")}
           </h1>
           <div className="flex flex-col gap-2">
-            <h3 className="text-2xl">"인내와 꾸준함이 강점이자 자랑인</h3>
-            <h3 className="text-2xl text-right">
-              프론트엔드 개발자 엄성준입니다."
-            </h3>
+            <h3 className="text-2xl">"{t("common.introduce1")}</h3>
+            <h3 className="text-2xl text-right">{t("common.introduce2")}"</h3>
           </div>
         </div>
         {/* 연락처 */}
