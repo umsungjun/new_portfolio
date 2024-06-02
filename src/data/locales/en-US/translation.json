@@ -5,5 +5,7 @@
   "common.contact": "Contact",
   "common.phone": "Phone",
   "common.mail": "Mail",
+  "common.gitHub": "GitHub",
+  "common.blog": "Blog",
   "chat.hello": "Thank you for visiting."
 }

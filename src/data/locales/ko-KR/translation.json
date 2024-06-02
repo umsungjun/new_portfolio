@@ -5,5 +5,7 @@
   "common.contact": "연락하기",
   "common.phone": "핸드폰",
   "common.mail": "메일",
+  "common.gitHub": "깃허브",
+  "common.blog": "블로그",
   "chat.hello": "방문해주셔서 감사합니다."
 }
