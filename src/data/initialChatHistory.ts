@@ -4,13 +4,13 @@ export const initialChatHistory: Chat[] = [
   {
     id: 1,
     type: "questionComment",
-    text: "방문해주셔서 감사합니다.",
+    text: "chat.hello" /* 인사 문구 */,
     createdAt: new Date(),
   },
   {
     id: 2,
     type: "questionComment",
-    text: "프론트엔드 개발자 엄성준 입니다.",
+    text: "common.introduce2" /* 자기소개 문구 */,
     createdAt: new Date(),
   },
   {
