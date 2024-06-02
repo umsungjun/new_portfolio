@@ -12,8 +12,8 @@ const resources = {
 i18n.use(initReactI18next).init({
   resources,
   debug: true,
-  lng: "ko",
-  fallbackLng: "en",
+  lng: sessionStorage.getItem("language") || "ko",
+  fallbackLng: "ko",
   keySeparator: false,
   interpolation: {
     escapeValue: false,
