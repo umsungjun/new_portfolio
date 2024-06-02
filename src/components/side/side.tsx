@@ -19,7 +19,7 @@ export default function Side() {
         {/* 연락처 */}
         <div className="flex gap-8">
           <div className="w-1/2">
-            <h3 className="text-2xl font-bold">연락하기</h3>
+            <h3 className="text-2xl font-bold">{t("common.contact")}</h3>
             <ul className="pt-8 flex flex-col gap-5">
               <li>
                 <div className="flex items-center gap-1.5">
@@ -37,9 +37,11 @@ export default function Side() {
                       d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
                     />
                   </svg>
-                  <h5 className="text-xl">핸드폰 번호</h5>
+                  <h5 className="text-xl">{t("common.phone")}</h5>
                 </div>
-                <p className="mt-2 text-lg">010-2112-0275</p>
+                <p className="mt-2 text-lg">
+                  {import.meta.env.VITE_PHONE_NUMBER}
+                </p>
               </li>
               <li>
                 <div className="flex items-center gap-1.5">
@@ -57,9 +59,9 @@ export default function Side() {
                       d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
                     />
                   </svg>
-                  <h5 className="text-xl">메일</h5>
+                  <h5 className="text-xl">{t("common.mail")}</h5>
                 </div>
-                <p className="mt-2 text-lg">umseongjun@naver.com</p>
+                <p className="mt-2 text-lg">{import.meta.env.VITE_MAIL}</p>
               </li>
             </ul>
           </div>
