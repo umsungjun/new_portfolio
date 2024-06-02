@@ -1,13 +1,15 @@
+import { useTranslation } from "react-i18next";
 import ProfileSwiper from "./profileSwiper/profileSwiper";
 
 export default function Side() {
+  const { t } = useTranslation();
   return (
     <aside className="hidden max-w-[450px] w-[450px] h-screen items-center web:flex">
       <div className="w-full flex flex-col gap-10">
         {/* 제목 및 소개 */}
         <div className="flex flex-col gap-10">
           <h1 className="text-5xl text-center font-medium">
-            엄성준 포트폴리오
+            {t("common.portfolioTItle")}
           </h1>
           <div className="flex flex-col gap-2">
             <h3 className="text-2xl">"인내와 꾸준함이 강점이자 자랑인</h3>

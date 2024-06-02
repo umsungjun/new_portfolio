@@ -1,8 +1,10 @@
 import { useEffect } from "react";
 import { useLanguageStore } from "../../store/useLanguageStore";
 import i18n from "../../i18n/i18n";
+import { useTranslation } from "react-i18next";
 
 export default function ChatHeader() {
+  const { t } = useTranslation();
   const { language, toggleLanguage } = useLanguageStore();
 
   /* 언어 변경 시 i18n language도 변경 */
@@ -24,7 +26,7 @@ export default function ChatHeader() {
           d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
         />
       </svg>
-      엄성준 포트폴리오
+      {t("common.portfolioTItle")}
       {/* 언어 ico */}
       <button
         onClick={toggleLanguage}
