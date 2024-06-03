@@ -1,11 +1,11 @@
-import { chatStore } from "../../store/chatStore";
+import { useChatStore } from "../../store/useChatStore";
 import Answer from "./chatComponent/answer/answer";
 import ChatStart from "./chatComponent/chatStart";
 import QuestionComment from "./chatComponent/questionComment";
 import SelectQuestion from "./chatComponent/selectQuestion";
 
 export default function ChatBody() {
-  const { chatHistory } = chatStore();
+  const { chatHistory } = useChatStore();
   console.log(chatHistory);
   return (
     <div className="relative h-full px-5 pt-6 pb-20 max-h-dvh overflow-y-scroll flex flex-col gap-4">

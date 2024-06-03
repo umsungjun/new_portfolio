@@ -2,13 +2,13 @@ import { create } from "zustand";
 import { Chat } from "../type/chatType";
 import { initialChatHistory } from "../data/initialChatHistory";
 
-type ChatStore = {
+type UseChatStore = {
   chatHistory: Chat[];
   setChatHistory: (updateChatHistory: Chat) => void;
   popChatHistory: () => void;
 };
 
-export const chatStore = create<ChatStore>()((set) => ({
+export const useChatStore = create<UseChatStore>()((set) => ({
   chatHistory: initialChatHistory,
   setChatHistory: (updateChatHistory) =>
     set((state) => ({

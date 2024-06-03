@@ -1,4 +1,4 @@
-import { chatStore } from "../../../store/chatStore";
+import { useChatStore } from "../../../store/useChatStore";
 import { Chat, ChatOption } from "../../../type/chatType";
 
 type SelectQuestion = {
@@ -7,7 +7,7 @@ type SelectQuestion = {
 };
 
 export default function SelectQuestion({ text, options }: SelectQuestion) {
-  const { setChatHistory, popChatHistory } = chatStore();
+  const { setChatHistory, popChatHistory } = useChatStore();
 
   /* 질문 석택 */
   const handleSelectQuestion = ({
