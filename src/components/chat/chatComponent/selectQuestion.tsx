@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useChatStore } from "../../../store/useChatStore";
 import { Chat, ChatOption } from "../../../type/chatType";
 
@@ -7,6 +8,7 @@ type SelectQuestion = {
 };
 
 export default function SelectQuestion({ text, options }: SelectQuestion) {
+  const { t } = useTranslation();
   const { setChatHistory, popChatHistory } = useChatStore();
 
   /* 질문 석택 */
@@ -39,7 +41,7 @@ export default function SelectQuestion({ text, options }: SelectQuestion) {
     <div className="questionWrapper">
       <div className="questionButtonBox">
         <span>{text}</span>
-        {options?.map((option) => {
+        {options?.map((option, index) => {
           return (
             <button
               key={option.id}
@@ -53,7 +55,7 @@ export default function SelectQuestion({ text, options }: SelectQuestion) {
                 })
               }
             >
-              {option.text}
+              {`${index + 1}. ${t(option.text)}`}
             </button>
           );
         })}
