@@ -7,5 +7,6 @@
   "common.mail": "메일",
   "common.gitHub": "깃허브",
   "common.blog": "블로그",
-  "chat.hello": "방문해주셔서 감사합니다."
+  "chat.hello": "방문해주셔서 감사합니다.",
+  "chat.question1": "프로젝트 경험"
 }

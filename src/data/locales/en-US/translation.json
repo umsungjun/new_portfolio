@@ -7,5 +7,6 @@
   "common.mail": "Mail",
   "common.gitHub": "GitHub",
   "common.blog": "Blog",
-  "chat.hello": "Thank you for visiting."
+  "chat.hello": "Thank you for visiting.",
+  "chat.question1": "Project Experience"
 }
