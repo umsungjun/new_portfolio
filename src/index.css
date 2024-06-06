@@ -212,6 +212,9 @@ table {
 .answer p {
   @apply w-full break-words leading-6;
 }
+.answer .question {
+  @apply font-black text-black;
+}
 .answer img {
   @apply rounded-lg;
 }
