@@ -5,9 +5,10 @@ import Answer1 from "./answerComponent/answer1";
 
 type Answer = {
   answerKey: string | undefined;
+  isRefresh: boolean;
 };
 
-export default function Answer({ answerKey }: Answer) {
+export default function Answer({ answerKey, isRefresh }: Answer) {
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
   useEffect(() => {
@@ -18,7 +19,7 @@ export default function Answer({ answerKey }: Answer) {
 
   return (
     <>
-      {isLoading ? (
+      {!isRefresh && isLoading ? (
         <div className="answerLoader">
           <PulseLoader
             color="#3B82f6"
