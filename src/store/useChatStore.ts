@@ -8,8 +8,12 @@ type UseChatStore = {
   popChatHistory: () => void;
 };
 
+const savedChatHistory = sessionStorage.getItem("chatHistory");
+
 export const useChatStore = create<UseChatStore>()((set) => ({
-  chatHistory: initialChatHistory,
+  chatHistory: savedChatHistory
+    ? JSON.parse(savedChatHistory)
+    : initialChatHistory,
   setChatHistory: (updateChatHistory) =>
     set((state) => ({
       chatHistory: [...state.chatHistory, updateChatHistory],
