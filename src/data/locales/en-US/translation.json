@@ -8,5 +8,16 @@
   "common.gitHub": "GitHub",
   "common.blog": "Blog",
   "chat.hello": "Thank you for visiting.",
-  "chat.question1": "Project Experience"
+  "chat.selectQuestion": "Select your desired question category!",
+  "chat.question1": "Memorable Project Experience",
+  "chat.answer1-1": "The most memorable project among the ones I worked on over the past year",
+  "chat.answer1-2": "The most memorable project during my one-year tenure at Autowini was the recent development of the claims system.",
+  "chat.answer1-3": "What is a claims system?",
+  "chat.answer1-4": "It is a chat consultation system that allows buyers to raise issues or defects with Autowini within 30 days of purchasing a vehicle.",
+  "chat.answer1-5": "Three reasons why the \"claims project\" is the most memorable",
+  "chat.answer1-6": "1. While the Autowini project is based on JSP, the claims system was separated as an SPA using React since it didn't require SEO. We integrated it using AWS CDI. Although the backend team handled the infrastructure work, I gained experience in developing using this approach.",
+  "chat.answer1-7": "2. Many companies demand from frontend developers the ability to deeply develop responsive UI, which was also an area of interest for me. It was satisfying to be able to develop responsive UI for the claims system, not only for web and mobile but also to control IOS and Android screens via web views.",
+  "chat.answer1-8": "3. From the initial project setup to the design, I handled everything on my own. It was gratifying to implement the translation system (automated via the i18n library) in this project myself, despite it being previously implemented in other projects.",
+  "chat.answer1-9": "This claims system development project has left the most memorable impression on me as it provided me with numerous challenges and a sense of accomplishment. It also offered me opportunities for technical growth and gaining new experiences.",
+  "chat.answer1-10": "operating video"
 }
