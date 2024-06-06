@@ -40,7 +40,7 @@ export default function SelectQuestion({ text, options }: SelectQuestion) {
   return (
     <div className="questionWrapper">
       <div className="questionButtonBox">
-        <span>{text}</span>
+        <span>{t(text)}</span>
         {options?.map((option, index) => {
           return (
             <button
