@@ -7,6 +7,13 @@ type SelectQuestion = {
   options: ChatOption[] | undefined;
 };
 
+const selectQuestion: Chat = {
+  id: 3,
+  type: "selectQuestion",
+  text: "chat.selectQuestion",
+  createdAt: new Date(),
+};
+
 export default function SelectQuestion({ text, options }: SelectQuestion) {
   const { t } = useTranslation();
   const { setChatHistory, popChatHistory } = useChatStore();
@@ -35,13 +42,20 @@ export default function SelectQuestion({ text, options }: SelectQuestion) {
       answerKey,
       createdAt,
     });
+    /* 질문 선택지 추가 */
+    if (options && 1 < options.length) {
+      const noSelectedOptions = options.filter((option) => option.id !== id);
+      setTimeout(() => {
+        setChatHistory({ ...selectQuestion, options: noSelectedOptions });
+      }, 1000);
+    }
   };
 
   return (
     <div className="questionWrapper">
       <div className="questionButtonBox">
         <span>{t(text)}</span>
-        {options?.map((option, index) => {
+        {options?.map((option) => {
           return (
             <button
               key={option.id}
@@ -55,7 +69,7 @@ export default function SelectQuestion({ text, options }: SelectQuestion) {
                 })
               }
             >
-              {`${index + 1}. ${t(option.text)}`}
+              {t(option.text)}
             </button>
           );
         })}
