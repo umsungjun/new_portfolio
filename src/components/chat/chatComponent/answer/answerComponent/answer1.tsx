@@ -43,7 +43,7 @@ export default function Answer1() {
         </span>
         {t("chat.answer1-10")}
       </p>
-      <VideoPlayer videoId={"k4-zQFDBiK8"} />
+      <VideoPlayer videoId={"7USF9jFaC54"} />
     </div>
   );
 }
