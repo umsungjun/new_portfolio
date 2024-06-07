@@ -221,3 +221,7 @@ table {
 .answer .videoPlayer {
   @apply rounded-lg overflow-hidden;
 }
+/* 기술 스택 */
+.answer .frontStackBox {
+  @apply block mt-1.5;
+}
