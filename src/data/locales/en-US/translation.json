@@ -9,7 +9,7 @@
   "common.blog": "Blog",
   "chat.hello": "Thank you for visiting.",
   "chat.selectQuestion": "Select your desired question category!",
-  "chat.question1": "Memorable Project Experience",
+  "chat.question1": "1. Memorable Project Experience",
   "chat.answer1-1": "The most memorable project among the ones I worked on over the past year",
   "chat.answer1-2": "The most memorable project during my one-year tenure at Autowini was the recent development of the claims system.",
   "chat.answer1-3": "What is a claims system?",
@@ -19,5 +19,14 @@
   "chat.answer1-7": "2. Many companies demand from frontend developers the ability to deeply develop responsive UI, which was also an area of interest for me. It was satisfying to be able to develop responsive UI for the claims system, not only for web and mobile but also to control IOS and Android screens via web views.",
   "chat.answer1-8": "3. From the initial project setup to the design, I handled everything on my own. It was gratifying to implement the translation system (automated via the i18n library) in this project myself, despite it being previously implemented in other projects.",
   "chat.answer1-9": "This claims system development project has left the most memorable impression on me as it provided me with numerous challenges and a sense of accomplishment. It also offered me opportunities for technical growth and gaining new experiences.",
-  "chat.answer1-10": "operating video"
+  "chat.answer1-10": "operating video",
+  "chat.question2": "2. Technology stack",
+  "chat.answer2-1": "What are the commonly used frontend tech stacks?",
+  "chat.answer2-2": "Language",
+  "chat.answer2-3": "Framework",
+  "chat.answer2-4": "Styling",
+  "chat.answer2-5": "State management",
+  "chat.answer2-6": "Global state management",
+  "chat.answer2-7": "The reason for choosing ReactJs among various frameworks",
+  "chat.answer2-8": "React is used by many developers worldwide, so if issues arise during development, a wealth of information is easily accessible through Google searches or communities like Stack Overflow. Additionally, React adopts a component-based architecture, allowing specific parts of the UI to be separated into reusable components. This makes it easier to manage the code on a component level, facilitating maintenance even as the project grows larger. For these reasons, React was chosen."
 }
