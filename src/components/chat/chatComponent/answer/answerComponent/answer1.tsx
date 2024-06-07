@@ -23,8 +23,14 @@ export default function Answer1() {
         <AnswerMark />
         {t("chat.answer1-4")}
       </p>
-      <p className="font-black mt-3">{t("chat.answer1-5")}</p>
-      <p>{t("chat.answer1-6")}</p>
+      <p className="font-black mt-3">
+        <QuestionMark />
+        {t("chat.answer1-5")}
+      </p>
+      <p>
+        <AnswerMark />
+        {t("chat.answer1-6")}
+      </p>
       <p>{t("chat.answer1-7")}</p>
       <p>{t("chat.answer1-8")}</p>
       <p className="font-black mt-2">{t("chat.answer1-9")}</p>
