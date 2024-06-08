@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import PulseLoader from "react-spinners/PulseLoader";
 import Answer1 from "./answerComponent/answer1";
 import Answer2 from "./answerComponent/answer2";
+import Answer3 from "./answerComponent/answer3";
 
 type Answer = {
   answerKey: string | undefined;
@@ -35,6 +36,7 @@ export default function Answer({ answerKey, isRefresh }: Answer) {
         <>
           {answerKey === "answer1" && <Answer1 />}
           {answerKey === "answer2" && <Answer2 />}
+          {answerKey === "answer3" && <Answer3 />}
         </>
       )}
     </>
