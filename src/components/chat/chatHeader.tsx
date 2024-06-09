@@ -15,18 +15,24 @@ export default function ChatHeader() {
 
   return (
     <header className="w-full h-14 bg-white sticky shadow-sm flex items-center justify-center text-lg">
-      {/* 뒤로가기 ico */}
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="gray"
-        className="w-5 h-5 cursor-pointer absolute left-3"
-        viewBox="0 0 16 16"
+      {/* 뒤로가기
+      <button
+        className="cursor-pointer absolute left-3"
+        onClick={() => handleBack}
       >
-        <path
-          fillRule="evenodd"
-          d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
-        />
-      </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="gray"
+          className="w-5 h-5 "
+          viewBox="0 0 16 16"
+        >
+          <path
+            fillRule="evenodd"
+            d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+          />
+        </svg>
+      </button>
+      */}
       {t("common.portfolioTItle")}
       {/* 언어 ico */}
       <button
