@@ -28,5 +28,22 @@
   "chat.answer2-5": "State management",
   "chat.answer2-6": "Global state management",
   "chat.answer2-7": "The reason for choosing ReactJs among various frameworks",
-  "chat.answer2-8": "React is used by many developers worldwide, so if issues arise during development, a wealth of information is easily accessible through Google searches or communities like Stack Overflow. Additionally, React adopts a component-based architecture, allowing specific parts of the UI to be separated into reusable components. This makes it easier to manage the code on a component level, facilitating maintenance even as the project grows larger. For these reasons, React was chosen."
+  "chat.answer2-8": "React is used by many developers worldwide, so if issues arise during development, a wealth of information is easily accessible through Google searches or communities like Stack Overflow. Additionally, React adopts a component-based architecture, allowing specific parts of the UI to be separated into reusable components. This makes it easier to manage the code on a component level, facilitating maintenance even as the project grows larger. For these reasons, React was chosen.",
+  "chat.question3": "3. Performance optimization experience",
+  "chat.answer3-1": "What techniques or methods have you used to optimize the performance of web applications?",
+  "chat.answer3-2": "1. Improve SEO",
+  "chat.answer3-3": "In a React project that is a SPA, I used the React-helmet library to dynamically adjust the title, description, and keywords of each page to improve SEO.",
+  "chat.answer3-4": "I have achieved results by ensuring that pages are better recognized and exposed by search engines.",
+  "chat.answer3-5": "2. Image Optimization",
+  "chat.answer3-6": "I used Akamai CDN for image optimization to efficiently manage the images used on web pages and enhance performance.",
+  "chat.answer3-7": "By caching images through the CDN and optimizing delivery speed, I improved the user experience.",
+  "chat.answer3-8": "3. Rendering Performance Optimization",
+  "chat.answer3-9": "By utilizing the Image component in Next.js, I optimized the rendering speed and performance of pages by blurring local images and implementing lazy loading.",
+  "chat.answer3-10": "I have optimized performance by adjusting image sizes appropriately through Cloudflare for faster page loading.",
+  "chat.answer3-11": "4. API Request Optimization",
+  "chat.answer3-12": "To enhance the application's performance, I minimized API requests by utilizing the useQuery, useInfiniteQuery, and useMutation functions from the react-query library.",
+  "chat.answer3-13": "I optimized network usage and efficiently managed data to provide users with better performance.",
+  "chat.answer3-14": "5. Personal Blog SEO Optimization",
+  "chat.answer3-15": "I conducted SEO work to ensure that my personal blog appears at the top of Google search results for the query \"엄성준.\"",
+  "chat.answer3-16": "Um sungjun's Personal Blog"
 }

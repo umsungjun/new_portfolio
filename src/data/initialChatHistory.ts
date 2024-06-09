@@ -25,7 +25,7 @@ export const initialChatHistory: Chat[] = [
         answerKey: "answer1",
       },
       { id: 5, type: "answer", text: "chat.question2", answerKey: "answer2" },
-      { id: 6, type: "answer", text: "궁금한점3", answerKey: "answer3" },
+      { id: 6, type: "answer", text: "chat.question3", answerKey: "answer3" },
       { id: 7, type: "answer", text: "궁금한점4", answerKey: "answer4" },
       { id: 8, type: "answer", text: "궁금한점5", answerKey: "answer5" },
     ],
