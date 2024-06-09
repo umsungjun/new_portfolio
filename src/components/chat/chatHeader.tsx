@@ -10,6 +10,7 @@ export default function ChatHeader() {
   /* 언어 변경 시 i18n language도 변경 */
   useEffect(() => {
     i18n.changeLanguage(language);
+    sessionStorage.setItem("language", language);
   }, [language]);
 
   return (
