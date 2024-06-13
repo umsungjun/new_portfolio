@@ -26,9 +26,8 @@ export default function ProfileSwiper() {
     >
       {googleImgId.map((imgId) => {
         return (
-          <SwiperSlide>
+          <SwiperSlide key={imgId}>
             <img
-              key={imgId}
               src={`${import.meta.env.VITE_GOOGLE_DRIVE_IMG_URL}${imgId}`}
               className="w-full"
               alt="profile"
