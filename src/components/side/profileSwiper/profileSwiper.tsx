@@ -5,6 +5,11 @@ import { EffectCards } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-cards";
 
+const googleImgId = [
+  "1mqLoHWEo5l-xD8fNnn6BXhM-SpX13sG4",
+  "1pND2J6AogJTsuOR6L3PGMlTaM5Ck6TVF",
+];
+
 export default function ProfileSwiper() {
   return (
     <Swiper
@@ -19,24 +24,18 @@ export default function ProfileSwiper() {
       /* 클릭 슬라이드 이동 여부 */
       slideToClickedSlide={true}
     >
-      <SwiperSlide>
-        <img
-          src={`${
-            import.meta.env.VITE_GOOGLE_DRIVE_IMG_URL
-          }1mqLoHWEo5l-xD8fNnn6BXhM-SpX13sG4`}
-          className="w-full"
-          alt=""
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img
-          src={`${
-            import.meta.env.VITE_GOOGLE_DRIVE_IMG_URL
-          }1mqLoHWEo5l-xD8fNnn6BXhM-SpX13sG4`}
-          className="w-full"
-          alt=""
-        />
-      </SwiperSlide>
+      {googleImgId.map((imgId) => {
+        return (
+          <SwiperSlide>
+            <img
+              key={imgId}
+              src={`${import.meta.env.VITE_GOOGLE_DRIVE_IMG_URL}${imgId}`}
+              className="w-full"
+              alt="profile"
+            />
+          </SwiperSlide>
+        );
+      })}
     </Swiper>
   );
 }
