@@ -4,6 +4,7 @@ import PulseLoader from "react-spinners/PulseLoader";
 import Answer1 from "./answerComponent/answer1";
 import Answer2 from "./answerComponent/answer2";
 import Answer3 from "./answerComponent/answer3";
+import Answer4 from "./answerComponent/answer4";
 
 type Answer = {
   answerKey: string | undefined;
@@ -37,6 +38,7 @@ export default function Answer({ answerKey, isRefresh }: Answer) {
           {answerKey === "answer1" && <Answer1 />}
           {answerKey === "answer2" && <Answer2 />}
           {answerKey === "answer3" && <Answer3 />}
+          {answerKey === "answer4" && <Answer4 />}
         </>
       )}
     </>
