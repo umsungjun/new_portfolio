@@ -46,5 +46,16 @@
   "chat.answer3-14": "5. Personal Blog SEO Optimization",
   "chat.answer3-15": "I conducted SEO work to ensure that my personal blog appears at the top of Google search results for the query \"엄성준.\"",
   "chat.answer3-16": "Um sungjun's Personal Blog",
-  "chat.question4": "Responsive design and web accessibility"
+  "chat.question4": "Responsive design and web accessibility",
+  "chat.answer4-1": "Responsive design",
+  "chat.answer4-2": "The portfolio project you are currently viewing is a web app designed to function properly across various environments. Responsive design has been applied to provide an optimal user experience on all devices, including web and mobile. Currently, Tailwind CSS is used to implement responsive features, but the same responsive web design can also be achieved using basic CSS or Styled-components.",
+  "chat.answer4-3": "Efforts to improve web accessibility",
+  "chat.answer4-4": "Utilization of meta tags",
+  "chat.answer4-5": "Search engine optimization (SEO) is being conducted by appropriately using meta tags such as title, description, and keywords within the head tag. We are aware that, according to the latest trends, the indiscriminate use of keywords can actually have a negative impact.",
+  "chat.answer4-6": "Use of semantic tags",
+  "chat.answer4-7": "We are using semantic tags to improve code readability and to ensure that search engines and accessibility tools can better understand our content.",
+  "chat.answer4-8": "The alt attribute of the img tag",
+  "chat.answer4-9": "We strictly adhere to adding the alt attribute to img tags to ensure web accessibility for visually impaired users.",
+  "chat.answer4-10": "Understanding and maintaining design patterns",
+  "chat.answer4-11": "We maintain consistent design by using standardized UI elements such as buttons, ensuring cohesive design and enhancing user experience."
 }
