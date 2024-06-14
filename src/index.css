@@ -184,6 +184,16 @@ table {
     transform: translateY(0);
   }
 }
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
 /* 질문 CSS */
 .questionWrapper {
   @apply w-11/12 flex flex-col gap-3 web:w-4/5;
@@ -231,4 +241,30 @@ table {
 /* 기술 스택 */
 .answer .frontStackBox {
   @apply block mt-1.5;
+}
+
+/* 말풍선 안내 */
+.bubbleGuide {
+  @apply absolute top-[3.75rem] right-1 bg-white z-10 px-3 py-1 rounded-2xl shadow-md border border-solid border-gray-400 flex items-center gap-1;
+  animation: hide 5s ease-in forwards;
+}
+.bubbleGuide::before {
+  border-top: 0px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid black;
+  content: "";
+  position: absolute;
+  top: -0.9rem;
+  right: 2rem;
+}
+.bubbleGuide::after {
+  border-top: 0.1px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid #fff;
+  content: "";
+  position: absolute;
+  top: -0.9rem;
+  right: 2rem;
 }
