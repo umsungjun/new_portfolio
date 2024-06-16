@@ -57,5 +57,6 @@
   "chat.answer4-8": "The alt attribute of the img tag",
   "chat.answer4-9": "We strictly adhere to adding the alt attribute to img tags to ensure web accessibility for visually impaired users.",
   "chat.answer4-10": "Understanding and maintaining design patterns",
-  "chat.answer4-11": "We maintain consistent design by using standardized UI elements such as buttons, ensuring cohesive design and enhancing user experience."
+  "chat.answer4-11": "We maintain consistent design by using standardized UI elements such as buttons, ensuring cohesive design and enhancing user experience.",
+  "chat.question5": "Cross-browser experience"
 }
