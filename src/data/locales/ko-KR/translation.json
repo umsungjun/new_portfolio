@@ -7,6 +7,7 @@
   "common.mail": "메일",
   "common.gitHub": "깃허브",
   "common.blog": "블로그",
+  "common.imgTouch": "(이미지를 터치하면 확대됩니다.)",
   "chat.hello": "방문해주셔서 감사합니다.",
   "chat.selectQuestion": "원하는 질문 카테고리를 선택해 주세요!",
   "chat.question1": "기억에 남는 프로젝트 경험",
@@ -58,5 +59,15 @@
   "chat.answer4-9": "시각장애인을 위한 웹 접근성을 고려하여 img 태그에 alt 속성을 추가하는 것을 철저히 준수하고 있습니다.",
   "chat.answer4-10": "디자인 패턴 이해 및 일관성 유지",
   "chat.answer4-11": "버튼과 같은 UI 요소를 규격에 맞게 공통적으로 사용하여 일관성 있는 디자인을 유지하고, 사용자 경험을 향상시키고 있습니다.",
-  "chat.question5": "크로스 브라우징 경험"
+  "chat.question5": "크로스 브라우징 경험",
+  "chat.question5-1": "문제 상황",
+  "chat.question5-2": "문제 해결 방법",
+  "chat.question5-3": "1. iOS 환경에서 키보드가 화면을 가리는 문제 해결",
+  "chat.question5-4": "AutoWini 클레임 프로젝트를 개발하면서 React 프로젝트를 통해 웹, 모바일, 앱에서 채팅 UI가 모두 잘 작동하도록 반응형 웹을 구현해야 했습니다. 대부분의 환경에서는 문제가 발생하지 않았지만, iOS 환경에서는 input이나 textarea를 통해 글자를 입력할 때 키보드가 올라오면서 화면의 너비를 인식하지 못해 키보드에 화면이 가려지는 문제가 발생했습니다.",
+  "chat.question5-5": "예시 이미지",
+  "chat.question5-6": "이 문제를 해결하기 위해 CSS와 JavaScript를 사용하여 화면의 높이가 변할 때 동적으로 vh(viewport height) 값을 재설정하는 방법을 사용했습니다. 구체적인 코드는 다음과 같습니다.",
+  "chat.question5-7": "2. iOS 환경에서 키보드가 화면을 가리는 문제 해결",
+  "chat.question5-8": "Chrome에서는 정상 작동하는 css가 Safari에서는 정상 작동하지 않는 문제가 발생했습니다.",
+  "chat.question5-9": "좌: Safari, 우: Chrome",
+  "chat.question5-10": "이 문제를 해결하기 위해 Sass 코드를 테스트하고 실행할 수 있는 온라인 플랫폼(https://www.sassmeister.com)을 활용하여 CSS 코드를 최적화하고 자식 요소 선택자를 이용한 CSS 코드를 분리하는 작업을 수행한 결과, 문제를 해결할 수 있었습니다."
 }
