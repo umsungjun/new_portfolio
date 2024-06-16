@@ -1,9 +1,12 @@
 import { useTranslation } from "react-i18next";
 import AnswerMark from "./utilComponent/answerMark";
 import QuestionMark from "./utilComponent/questionMark";
+import { useImagePreviewStore } from "../../../../../store/useImagePreviewStore";
 
 export default function Answer3() {
+  const { setImageUrl, setOpenImagePreview } = useImagePreviewStore();
   const { t } = useTranslation();
+
   return (
     <div className="answer">
       <p className="question">
@@ -49,6 +52,14 @@ export default function Answer3() {
             import.meta.env.VITE_GOOGLE_DRIVE_IMG_URL
           }1YdVDqn8fWVm27aoUlxq1NHtJsvjwpgsv`}
           alt="search_blog"
+          onClick={() => {
+            setImageUrl(
+              `${
+                import.meta.env.VITE_GOOGLE_DRIVE_IMG_URL
+              }1YdVDqn8fWVm27aoUlxq1NHtJsvjwpgsv`
+            );
+            setOpenImagePreview(true);
+          }}
         />
       </div>
     </div>

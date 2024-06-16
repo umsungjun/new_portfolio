@@ -1,7 +1,10 @@
 import { useTranslation } from "react-i18next";
+import { useImagePreviewStore } from "../../../../../store/useImagePreviewStore";
 
 export default function Answer5() {
+  const { setImageUrl, setOpenImagePreview } = useImagePreviewStore();
   const { t } = useTranslation();
+
   return (
     <div className="answer">
       <p className="font-black">{t("chat.question5-3")}</p>
@@ -13,6 +16,14 @@ export default function Answer5() {
             import.meta.env.VITE_GOOGLE_DRIVE_IMG_URL
           }11c9RkAEBhHRJvMHjEVgeP0QRE347en83`}
           alt="crossBrowsing_img"
+          onClick={() => {
+            setImageUrl(
+              `${
+                import.meta.env.VITE_GOOGLE_DRIVE_IMG_URL
+              }11c9RkAEBhHRJvMHjEVgeP0QRE347en83`
+            );
+            setOpenImagePreview(true);
+          }}
         />
         <span className="text-sm text-gray-500 text-center">
           {t("chat.question5-5")}
@@ -49,6 +60,14 @@ export default function Answer5() {
             import.meta.env.VITE_GOOGLE_DRIVE_IMG_URL
           }10w0IoZz1iCmzv5ugJZrTud1KvgS1zL5s`}
           alt="crossBrowsing_img"
+          onClick={() => {
+            setImageUrl(
+              `${
+                import.meta.env.VITE_GOOGLE_DRIVE_IMG_URL
+              }10w0IoZz1iCmzv5ugJZrTud1KvgS1zL5s`
+            );
+            setOpenImagePreview(true);
+          }}
         />
         <span className="text-sm text-gray-500 text-center">
           {t("chat.question5-9")}
