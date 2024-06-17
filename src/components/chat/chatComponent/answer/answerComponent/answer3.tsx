@@ -56,7 +56,7 @@ export default function Answer3() {
             setImageUrl(
               `${
                 import.meta.env.VITE_GOOGLE_DRIVE_IMG_URL
-              }1YdVDqn8fWVm27aoUlxq1NHtJsvjwpgsv`
+              }1YdVDqn8fWVm27aoUlxq1NHtJsvjwpgsv&sz=w1000`
             );
             setOpenImagePreview(true);
           }}

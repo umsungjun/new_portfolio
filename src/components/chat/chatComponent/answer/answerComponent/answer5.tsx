@@ -20,7 +20,7 @@ export default function Answer5() {
             setImageUrl(
               `${
                 import.meta.env.VITE_GOOGLE_DRIVE_IMG_URL
-              }11c9RkAEBhHRJvMHjEVgeP0QRE347en83`
+              }11c9RkAEBhHRJvMHjEVgeP0QRE347en83&sz=w1000`
             );
             setOpenImagePreview(true);
           }}
@@ -64,7 +64,7 @@ export default function Answer5() {
             setImageUrl(
               `${
                 import.meta.env.VITE_GOOGLE_DRIVE_IMG_URL
-              }10w0IoZz1iCmzv5ugJZrTud1KvgS1zL5s`
+              }10w0IoZz1iCmzv5ugJZrTud1KvgS1zL5s&sz=w1000`
             );
             setOpenImagePreview(true);
           }}
