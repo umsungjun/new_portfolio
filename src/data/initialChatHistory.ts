@@ -28,6 +28,7 @@ export const initialChatHistory: Chat[] = [
       { id: 6, type: "answer", text: "chat.question3", answerKey: "answer3" },
       { id: 7, type: "answer", text: "chat.question4", answerKey: "answer4" },
       { id: 8, type: "answer", text: "chat.question5", answerKey: "answer5" },
+      { id: 999, type: "answer", text: "gitAndBlog", answerKey: "gitAndBlog" },
     ],
     createdAt: new Date(),
   },
