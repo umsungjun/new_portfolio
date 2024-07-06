@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 
 const googleImgId = [
+  "1mHmEA6_u4HVNLZE-P8SeiyJUOw4VWY6P",
   "1mqLoHWEo5l-xD8fNnn6BXhM-SpX13sG4",
   "1pND2J6AogJTsuOR6L3PGMlTaM5Ck6TVF",
 ];
