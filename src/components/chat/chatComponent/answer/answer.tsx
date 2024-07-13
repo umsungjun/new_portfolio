@@ -6,6 +6,7 @@ import Answer2 from "./answerComponent/answer2";
 import Answer3 from "./answerComponent/answer3";
 import Answer4 from "./answerComponent/answer4";
 import Answer5 from "./answerComponent/answer5";
+import Answer6 from "./answerComponent/answer6";
 import GitAndBlog from "./answerComponent/gitAndBlog";
 
 type Answer = {
@@ -42,6 +43,7 @@ export default function Answer({ answerKey, isRefresh }: Answer) {
           {answerKey === "answer3" && <Answer3 />}
           {answerKey === "answer4" && <Answer4 />}
           {answerKey === "answer5" && <Answer5 />}
+          {answerKey === "answer6" && <Answer6 />}
           {answerKey === "gitAndBlog" && <GitAndBlog />}
         </>
       )}
