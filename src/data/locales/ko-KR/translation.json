@@ -72,5 +72,18 @@
   "chat.question5-7": "2. iOS 환경에서 키보드가 화면을 가리는 문제 해결",
   "chat.question5-8": "Chrome에서는 정상 작동하는 css가 Safari에서는 정상 작동하지 않는 문제가 발생했습니다.",
   "chat.question5-9": "좌: Safari, 우: Chrome",
-  "chat.question5-10": "이 문제를 해결하기 위해 Sass 코드를 테스트하고 실행할 수 있는 온라인 플랫폼(https://www.sassmeister.com)을 활용하여 CSS 코드를 최적화하고 자식 요소 선택자를 이용한 CSS 코드를 분리하는 작업을 수행한 결과, 문제를 해결할 수 있었습니다."
+  "chat.question5-10": "이 문제를 해결하기 위해 Sass 코드를 테스트하고 실행할 수 있는 온라인 플랫폼(https://www.sassmeister.com)을 활용하여 CSS 코드를 최적화하고 자식 요소 선택자를 이용한 CSS 코드를 분리하는 작업을 수행한 결과, 문제를 해결할 수 있었습니다.",
+  "chat.question6": "개인 프로젝트 경험",
+  "chat.question6-1": "프로젝트 명",
+  "chat.question6-2": "기간",
+  "chat.question6-3": "사용 기술",
+  "chat.question6-4": "간단 설명",
+  "chat.question6-5": "자세한 설명",
+  "chat.question6-6": "깃허브 바로 가기",
+  "chat.question6-7": "배포 사이트 바로 가기",
+  "chat.question6.project1": "React와 TypeScript를 사용하고 Fake Store API 데이터를 활용하여 만든 쇼핑몰 프로젝트 입니다.",
+  "chat.question6.project2": "React와 TypeScript를 사용하고 Poke API 데이터를 활용하여 만든 포켓몬 도감 프로젝트 입니다.",
+  "chat.question6.project3": "여행을 즐기는 사용자들이 서로 정보를 공유하고 소통할 수 있는 커뮤니티 사이트 입니다.",
+  "chat.question6.project4": "NextJs와 TypeScript를 사용하여 개발한 개인 포트폴리오 프로젝트입니다.",
+  "chat.question6.project5": "React와 TypeScript를 사용하여 개발한 개인 포트폴리오 프로젝트입니다."
 }

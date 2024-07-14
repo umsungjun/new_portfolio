@@ -72,5 +72,18 @@
   "chat.question5-7": "2. Resolving the issue of the keyboard covering the screen in iOS environment",
   "chat.question5-8": "There was an issue where CSS that worked correctly in Chrome did not function properly in Safari.",
   "chat.question5-9": "Left: Safari, Right: Chrome",
-  "chat.question5-10": "To solve this issue, I utilized an online platform (https://www.sassmeister.com) to test and execute Sass code. By optimizing the CSS code and separating the CSS code using child element selectors, I was able to resolve the problem successfully."
+  "chat.question5-10": "To solve this issue, I utilized an online platform (https://www.sassmeister.com) to test and execute Sass code. By optimizing the CSS code and separating the CSS code using child element selectors, I was able to resolve the problem successfully.",
+  "chat.question6": "Personal Project Experience",
+  "chat.question6-1": "Project Name",
+  "chat.question6-2": "Duration",
+  "chat.question6-3": "Technologies Used",
+  "chat.question6-4": "Brief Description",
+  "chat.question6-5": "Detailed Description",
+  "chat.question6-6": "GitHub Link",
+  "chat.question6-7": "Live Site Link",
+  "chat.question6.project1": "This is a shopping mall project built using React and TypeScript, utilizing data from the Fake Store API.",
+  "chat.question6.project2": "This is a Pokédex project built using React and TypeScript, utilizing data from the Poke API.",
+  "chat.question6.project3": "This is a community site where travel enthusiasts can share information and communicate with each other.",
+  "chat.question6.project4": "This is a personal portfolio project developed using Next.js and TypeScript.",
+  "chat.question6.project5": "This is a personal portfolio project developed using React and TypeScript."
 }
