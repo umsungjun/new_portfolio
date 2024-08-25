@@ -18,6 +18,8 @@ React, TypeScript, Tailwind CSS, Zustand, react-i18next, Vite
 src
  ┣ assets
  ┣ components
+ ┃ ┣ ReactHelmet
+ ┃ ┃ ┗ ReactHelmet.tsx
  ┃ ┣ chat
  ┃ ┃ ┣ chatComponent
  ┃ ┃ ┃ ┣ answer
@@ -59,6 +61,8 @@ src
  ┃ ┣ credentials.js
  ┃ ┣ i18n.ts
  ┃ ┗ loadSpreadSheet.js
+ ┣ pages
+ ┃ ┗ Main.tsx
  ┣ store
  ┃ ┣ useChatStore.ts
  ┃ ┣ useImagePreviewStore.ts
