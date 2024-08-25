@@ -1,11 +1,5 @@
-import Chat from "./components/chat/chat";
-import Side from "./components/side/side";
+import Main from "./pages/Main";
 
 export default function App() {
-  return (
-    <section className="flex justify-center gap-32 overflow-hidden">
-      <Side />
-      <Chat />
-    </section>
-  );
+  return <Main />;
 }
