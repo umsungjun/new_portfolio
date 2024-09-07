@@ -18,6 +18,7 @@ export default function ChatHeader() {
     if (language === "ko") {
       setShowBubbleGuide(true);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
