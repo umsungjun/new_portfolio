@@ -25,7 +25,7 @@ export default function ChatHeader() {
   }, []);
 
   return (
-    <header className="relative w-full h-14 bg-white  shadow-sm flex items-center justify-center text-lg">
+    <header className="relative w-full h-14 bg-white  shadow-sm flex items-center justify-center text-lg dark:bg-neutral-900 dark:text-white">
       {/*  */}
       <button
         className="cursor-pointer absolute left-3"
@@ -34,7 +34,7 @@ export default function ChatHeader() {
         {theme === "light" ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
+            fill="black"
             className="bi bi-sun-fill size-5"
             viewBox="0 0 16 16"
           >
@@ -43,7 +43,7 @@ export default function ChatHeader() {
         ) : (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
+            fill="white"
             className="bi bi-moon-stars-fill size-5"
             viewBox="0 0 16 16"
           >
