@@ -146,24 +146,6 @@ table {
   font-family: "Pretendard-Regular" !important;
 }
 
-/* live-gradient 배경화면 임시 주석처리 */
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-.chatBackground {
-  background: linear-gradient(100deg, #d7e5fa, #ede9f8, #d7e5fa);
-  background-size: 200% 100%;
-  animation: gradient-animation 15s ease infinite;
-}
-
 @keyframes slideDown {
   0% {
     opacity: 0;
@@ -245,7 +227,7 @@ table {
 
 /* 말풍선 안내 */
 .bubbleGuide {
-  @apply absolute top-[3.75rem] right-1 bg-white z-10 px-3 py-1 rounded-2xl shadow-md border border-solid border-gray-400 flex items-center gap-1;
+  @apply absolute top-[3.75rem] right-1 bg-white z-10 px-3 py-1 rounded-2xl shadow-md border border-solid border-gray-400 flex items-center gap-1 !text-black;
   animation: hide 5s ease-in forwards;
 }
 .bubbleGuide::before {
