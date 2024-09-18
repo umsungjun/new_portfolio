@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { useTheme } from "../../util/useTheme";
 
 export default function ChatHeader() {
-  const [theme, setDarkToggle] = useTheme();
+  const [theme, setThemeToggle] = useTheme();
 
   const { t } = useTranslation();
   const { language, toggleLanguage } = useLanguageStore();
@@ -29,7 +29,7 @@ export default function ChatHeader() {
       {/*  */}
       <button
         className="cursor-pointer absolute left-3"
-        onClick={setDarkToggle}
+        onClick={setThemeToggle}
       >
         {theme === "light" ? (
           <svg
