@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "download:i18n": "node src/i18n/loadSpreadSheet.js"
+    "download:i18n": "node src/i18n/loadSpreadSheet.js",
+    "deploy": "aws s3 sync dist/ s3://umsungjun --delete"
   },
   "dependencies": {
     "date-fns": "^3.6.0",
