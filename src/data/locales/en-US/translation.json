@@ -69,7 +69,7 @@
   "chat.question5-4": "While developing the AutoWini claims project, I needed to implement a responsive web design using React to ensure that the chat UI worked seamlessly across web, mobile, and app platforms. Most environments posed no issues, but in the iOS environment, a problem arose where the keyboard would cover the screen when typing into input or textarea fields, due to the screen width not being recognized correctly.",
   "chat.question5-5": "Example image",
   "chat.question5-6": "To solve this problem, I used CSS and JavaScript to dynamically reset the vh (viewport height) value when the screen height changes. Here is the specific code",
-  "chat.question5-7": "2. Resolving the issue of the keyboard covering the screen in iOS environment",
+  "chat.question5-7": "2. Resolving Issues with CSS Not Functioning Properly in iOS Environments",
   "chat.question5-8": "There was an issue where CSS that worked correctly in Chrome did not function properly in Safari.",
   "chat.question5-9": "Left: Safari, Right: Chrome",
   "chat.question5-10": "To solve this issue, I utilized an online platform (https://www.sassmeister.com) to test and execute Sass code. By optimizing the CSS code and separating the CSS code using child element selectors, I was able to resolve the problem successfully.",

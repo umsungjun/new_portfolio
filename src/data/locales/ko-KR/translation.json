@@ -69,7 +69,7 @@
   "chat.question5-4": "AutoWini 클레임 프로젝트를 개발하면서 React 프로젝트를 통해 웹, 모바일, 앱에서 채팅 UI가 모두 잘 작동하도록 반응형 웹을 구현해야 했습니다. 대부분의 환경에서는 문제가 발생하지 않았지만, iOS 환경에서는 input이나 textarea를 통해 글자를 입력할 때 키보드가 올라오면서 화면의 너비를 인식하지 못해 키보드에 화면이 가려지는 문제가 발생했습니다.",
   "chat.question5-5": "예시 이미지",
   "chat.question5-6": "이 문제를 해결하기 위해 CSS와 JavaScript를 사용하여 화면의 높이가 변할 때 동적으로 vh(viewport height) 값을 재설정하는 방법을 사용했습니다. 구체적인 코드는 다음과 같습니다.",
-  "chat.question5-7": "2. iOS 환경에서 키보드가 화면을 가리는 문제 해결",
+  "chat.question5-7": "2. iOS 환경에서 CSS가 정상적으로 작동하지 않는 문제 해결",
   "chat.question5-8": "Chrome에서는 정상 작동하는 css가 Safari에서는 정상 작동하지 않는 문제가 발생했습니다.",
   "chat.question5-9": "좌: Safari, 우: Chrome",
   "chat.question5-10": "이 문제를 해결하기 위해 Sass 코드를 테스트하고 실행할 수 있는 온라인 플랫폼(https://www.sassmeister.com)을 활용하여 CSS 코드를 최적화하고 자식 요소 선택자를 이용한 CSS 코드를 분리하는 작업을 수행한 결과, 문제를 해결할 수 있었습니다.",
