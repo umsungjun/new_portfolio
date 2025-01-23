@@ -18,11 +18,6 @@ export default function ChatBody() {
     }, 1000);
   }, []);
 
-  /* chatHistory 변경 될 때 마다 sessionStorage 저장 */
-  useEffect(() => {
-    sessionStorage.setItem("chatHistory", JSON.stringify(chatHistory));
-  }, [chatHistory]);
-
   return (
     <>
       <div
