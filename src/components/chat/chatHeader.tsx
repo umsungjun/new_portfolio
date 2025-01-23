@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { useLanguageStore } from "../../store/useLanguageStore";
-import i18n from "../../i18n/i18n";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "../../util/useTheme";
 
@@ -10,12 +9,6 @@ export default function ChatHeader() {
   const { t } = useTranslation();
   const { language, toggleLanguage } = useLanguageStore();
   const [showBubbleGuide, setShowBubbleGuide] = useState(false);
-
-  /* 언어 변경 시 i18n language도 변경 */
-  useEffect(() => {
-    i18n.changeLanguage(language);
-    sessionStorage.setItem("language", language);
-  }, [language]);
 
   useEffect(() => {
     if (language === "ko") {
