@@ -26,3 +26,6 @@ dist-ssr
 
 # Google console 계정 정보
 src/i18n/credentials.js
+
+# 환경 변수 파일
+.env
